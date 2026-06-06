@@ -160,8 +160,8 @@ LLM Output:
 Prompt:
 
 "If a train travels 120 km in 2 hours, then stops for 30 minutes, then travels another 90 km in 1.5 hours, what is its average speed for the entire journey? Let's solve this step by step."
-
-LLM Output: <img width="702" height="373" alt="image" src="https://github.com/user-attachments/assets/007f9f44-80f1-4683-9ffe-d1e16e168262" />
+LLM Output:
+ <img width="702" height="373" alt="image" src="https://github.com/user-attachments/assets/007f9f44-80f1-4683-9ffe-d1e16e168262" />
 
 #### Comparison
 The zero-shot prompt without Chain-of-Thought (CoT) forces a direct answer, obscuring the underlying math and making it impossible to spot hidden logic errors if the AI were to get it wrong. CoT helps with complex reasoning because it forces the AI to unpack the problem into logical phases, effectively giving it more computational "space" (tokens) to process intermediate steps—like remembering to include the 30-minute stationary period in the total time constraint. However, one notable limitation of CoT is its verbosity and increased token cost; if you are running an automated script that just needs a raw numerical value to feed into another program, the extra text makes the output difficult to parse.
