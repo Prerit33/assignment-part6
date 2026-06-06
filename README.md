@@ -40,9 +40,6 @@ Thank you again for your time, the wonderful interview experience, and the gener
 Best regards, \
 [Your Name]
 
-<img width="726" height="427" alt="image" src="https://github.com/user-attachments/assets/7aeba862-b5e3-4119-af06-ac49c450cc7f" />
-
-
 ### 1.1 Scenario C: Creative Content
 
 #### Initial prompt 
@@ -67,6 +64,15 @@ Rationale: This plays on the concept of hydration by contrasting the consumer's 
 Rationale: This highlights the transformative, premium nature of the product, turning a global problem (ocean plastic) into a personal asset for the adventurer.
 
 ### 1.2 Iteration Documentation
+
+
+| Header 1 | Header 2 | Header 3 |
+| -------- | -------- | -------- |
+| Row 1 A  | Row 1 B  | Row 1 C  |
+| Row 2 A  | Row 2 B  | Row 2 C  |
+
+
+
 ### 1.3 Role and Context Analysis
 
 ## Part 2: Temperature & Parameter Control
