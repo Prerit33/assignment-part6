@@ -131,9 +131,9 @@ Output: Neon synapses fired backward, a screaming kaleidoscope of stolen yesterd
 | Feature | Low Temperature (0.2) | Medium Temperature (0.7) | High Temperature (1.4) |
 | -------- | -------- | -------- | --------- |
 | Vocabulary & Word Choice | Standard, literal, and functional (neural cables, recording, logical clues). | Descriptive and engaging with some sensory details (ozone and panic, chaotic static, anchor point). | Highly abstract, unconventional, and heavily stylized (neon synapses, screaming kaleidoscope, wet origami).|
-| Tone | Write 5 creative marketing taglines for a new brand of eco-friendly water bottles made from recycled ocean plastic. The target audience is active, outdoorsy millennials. | Specified the quantity, product material, and target demographic.| Replaced generic eco-clichés with targeted messaging relevant to a specific audience and product material. |
-| Predictability | Act as an expert advertising copywriter. Generate 3 short, punchy, and clever marketing taglines for a new premium water bottle brand made entirely from reclaimed ocean plastic. The target audience is environmentally conscious hikers and outdoor adventurers. Avoid overused clichés like 'save the planet' or 'go green'. For each tagline, provide a brief one-sentence rationale explaining why it resonates with the target audience. | Assigned a professional persona, named the brand, added negative constraints against clichés, refined the focus, and requested rationales. | Elevated the output to professional-grade copy by enforcing a specific brand voice, avoiding tired phrases, and forcing the LLM to justify its creative choices.|
-| Coherence | Give me some marketing taglines for a new eco-friendly water bottle. | N/A | N/A |
+| Tone | Clinical, straightforward, and procedural. | Tense, dramatic, and balanced.| Surreal, chaotic, and intensely vivid. |
+| Predictability | Very predictable; reads exactly like a standard summary of the prompt's concept.| Moderately predictable but adds narrative flair and stakes (the "feedback loop").| Highly unpredictable; takes creative risks with metaphors and sensory descriptions.|
+| Coherence | Extremely clear and easy to understand. | Clear and easy to follow while remaining creative. | Borderline disjointed; the heavy use of abstract imagery sacrifices some immediate clarity for artistic impact. |
 
 ## Part 3: Strategic Prompting Techniques
 ### 3.1 Chain-of-Thought Prompting
