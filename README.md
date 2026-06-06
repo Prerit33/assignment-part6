@@ -136,7 +136,33 @@ Output: Neon synapses fired backward, a screaming kaleidoscope of stolen yesterd
 | Coherence | Extremely clear and easy to understand. | Clear and easy to follow while remaining creative. | Borderline disjointed; the heavy use of abstract imagery sacrifices some immediate clarity for artistic impact. |
 
 ## Part 3: Strategic Prompting Techniques
+#### Option chosen: 
+*Option A: Math/Logic Problem*
+
+Problem: If a train travels 120 km in 2 hours, then stops for 30 minutes,
+then travels another 90 km in 1.5 hours, what is its average speed for
+the entire journey?
+
 ### 3.1 Chain-of-Thought Prompting
+
+#### 1. Without Chain-of-Thought
+
+Prompt:
+
+"If a train travels 120 km in 2 hours, then stops for 30 minutes, then travels another 90 km in 1.5 hours, what is its average speed for the entire journey? Provide only the final answer.
+
+LLM Output:
+
+52.5 km/h
+
+#### 2. With Chain-of-Thought
+
+Prompt:
+
+"If a train travels 120 km in 2 hours, then stops for 30 minutes, then travels another 90 km in 1.5 hours, what is its average speed for the entire journey? Let's solve this step by step."
+
+LLM Output:Let's break down the journey to find the total distance and total time, as average speed is calculated using the formula: $v = \frac{d}{t}$Step 1: Calculate Total DistanceFirst leg: 120 kmSecond leg: 90 kmTotal Distance = $120 + 90 = 210 \text{ km}$Step 2: Calculate Total TimeFirst leg time: 2 hoursStop time: 30 minutes (which is 0.5 hours)Second leg time: 1.5 hoursTotal Time = $2 + 0.5 + 1.5 = 4 \text{ hours}$Step 3: Calculate Average Speed$\text{Average Speed} = \frac{210 \text{ km}}{4 \text{ hours}} = 52.5 \text{ km/h}$The average speed for the entire journey is 52.5 km/h.
+
 ### 3.2 Few-Shot Prompting
 
 ## Part 4: Responsible AI & Limitations
