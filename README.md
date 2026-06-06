@@ -171,6 +171,22 @@ The zero-shot prompt without Chain-of-Thought (CoT) forces a direct answer, obsc
 
 ### 3.2 Few-Shot Prompting
 
+#### Step 1: Zero-Shot Attempt
+
+Prompt:
+
+Classify the sentiment of the following customer reviews as Positive, Negative, or Neutral:
+
+- "The product arrived damaged and customer service was unhelpful."
+
+- "Works as expected, nothing special but does the job."
+
+- "Absolutely love this! Best purchase I've made all year!"
+
+- "The quality is okay but slightly overpriced for what you get."
+
+- "Terrible experience, would not recommend to anyone."
+
 ## Part 4: Responsible AI & Limitations
 ### 4.1 Testing for Hallucinations
 ### 4.2 Testing for Bias
