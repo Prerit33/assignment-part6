@@ -32,12 +32,12 @@ Write a professional email declining a job offer for a Machine Learning Engineer
 "Act as a professional in the tech industry. Write a polite, concise email to a hiring manager, declining a job offer for a Machine Learning Engineer position at TechCorp. Explain that while you were highly impressed by their team's work on predictive modeling and thoroughly enjoyed the interview process, you have accepted an offer that aligns slightly closer to your current focus on building end-to-end data processing pipelines."
 
 #### Final Output
-Dear Sarah,
+Dear Sarah, \
 Thank you so much for offering me the Machine Learning Engineer position at TechCorp. I thoroughly enjoyed our conversations and was highly impressed by your team’s innovative work on predictive modeling.
 After careful consideration, I must respectfully decline the offer. I have decided to accept another opportunity that aligns slightly closer to my current career focus on building end-to-end data processing pipelines. This was a difficult decision, as I think very highly of TechCorp and the direction your team is heading.
 I would love to stay connected on LinkedIn and keep in touch. I will certainly be following TechCorp’s continued success and hope our paths might cross again in the future.
-Thank you again for your time, the wonderful interview experience, and the generous offer.
-Best regards,
+Thank you again for your time, the wonderful interview experience, and the generous offer. \
+Best regards, \
 [Your Name]
 
 ### 1.1 Scenario C: Creative Content
