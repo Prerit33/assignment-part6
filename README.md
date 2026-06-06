@@ -40,6 +40,9 @@ Thank you again for your time, the wonderful interview experience, and the gener
 Best regards, \
 [Your Name]
 
+<img width="726" height="427" alt="image" src="https://github.com/user-attachments/assets/7aeba862-b5e3-4119-af06-ac49c450cc7f" />
+
+
 ### 1.1 Scenario C: Creative Content
 
 #### Initial prompt 
