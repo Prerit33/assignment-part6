@@ -68,9 +68,9 @@ Rationale: This highlights the transformative, premium nature of the product, tu
 
 | Version | Prompt | What Changed | Why This Improved the Output |
 | -------- | -------- | -------- | --------- |
-| V1  | Row 1 B  | Row 1 C  | Row 1 D |
-| V2  | Row 2 B  | Row 2 C  | Row 2 D |
-| V3  | Row 2 B  | Row 2 C  | Row 2 D |
+| V1  | Explain how a neural network works to a 10-year-old.  | Row 1 C  | Row 1 D |
+| V2  | Explain how a neural network works to a 10-year-old. Use an analogy to make it easier to understand. Keep it under three paragraphs and avoid using any complicated words.  | Row 2 C  | Row 2 D |
+| V3  | Act as an enthusiastic science teacher. Explain how a neural network works to a 10-year-old. Use an analogy about trying to beat a difficult boss in a video game. Keep the response to exactly three short paragraphs. End the explanation with a fun fact about how making mistakes actually makes the AI smarter.  | Row 2 C  | Row 2 D |
 
 
 
