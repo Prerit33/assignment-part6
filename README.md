@@ -66,10 +66,11 @@ Rationale: This highlights the transformative, premium nature of the product, tu
 ### 1.2 Iteration Documentation
 
 
-| Header 1 | Header 2 | Header 3 | Header 4 |
+| Version | Prompt | What Changed | Why This Improved the Output |
 | -------- | -------- | -------- | --------- |
-| Row 1 A  | Row 1 B  | Row 1 C  | Row 1 D |
-| Row 2 A  | Row 2 B  | Row 2 C  | Row 2 D |
+| V1  | Row 1 B  | Row 1 C  | Row 1 D |
+| V2  | Row 2 B  | Row 2 C  | Row 2 D |
+| V3  | Row 2 B  | Row 2 C  | Row 2 D |
 
 
 
