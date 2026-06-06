@@ -41,6 +41,28 @@ Best regards, \
 [Your Name]
 
 ### 1.1 Scenario C: Creative Content
+
+#### Initial prompt 
+"Give me some marketing taglines for a new eco-friendly water bottle."
+
+#### Refined Prompt (Iteration 1)
+"Write 5 creative marketing taglines for a new brand of eco-friendly water bottles made from recycled ocean plastic. The target audience is active, outdoorsy millennials."
+
+#### Refined Prompt (Iteration 2)
+"Act as an expert advertising copywriter. Generate 3 short, punchy, and clever marketing taglines for a new premium water bottle brand made entirely from reclaimed ocean plastic. The target audience is environmentally conscious hikers and outdoor adventurers. Avoid overused clichés like 'save the planet' or 'go green'. For each tagline, provide a brief one-sentence rationale explaining why it resonates with the target audience."
+
+#### Final Output
+Here are three punchy and clever taglines for TideTrek, tailored to your outdoor-focused audience:
+
+1. Reclaimed from the tide. Ready for the trail.
+Rationale: This uses parallel structure to beautifully connect the origin of the recycled material directly to the customer's active use case.
+
+2. Thirst for adventure. Starve the landfill.
+Rationale: This plays on the concept of hydration by contrasting the consumer's active mindset with a strong, actionable stance against plastic waste.
+
+3. The ocean's past, fueling your next peak.
+Rationale: This highlights the transformative, premium nature of the product, turning a global problem (ocean plastic) into a personal asset for the adventurer.
+
 ### 1.2 Iteration Documentation
 ### 1.3 Role and Context Analysis
 
