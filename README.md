@@ -187,6 +187,83 @@ Classify the sentiment of the following customer reviews as Positive, Negative, 
 
 - "Terrible experience, would not recommend to anyone."
 
+LLM Output:
+
+1. Negative
+
+2. Neutral
+
+3. Positive
+
+4. Negative (or Neutral, leaning negative)
+
+5. Negative
+
+#### Step 2: Few-Shot Attempt
+Prompt:
+
+You are a sentiment classification system. Classify the following customer reviews into one of three categories: Positive, Negative, or Neutral. Use the exact format shown in the examples.
+
+Examples:
+Review: "This product exceeded my expectations!"
+Sentiment: Positive
+
+Review: "Completely broke after one week of use."
+Sentiment: Negative
+
+Review: "It's fine, does what it says on the box."
+Sentiment: Neutral
+
+Review: "The delivery was fast, but the color is completely different from the pictures."
+Sentiment: Negative
+
+Target Reviews:
+Review: "The product arrived damaged and customer service was unhelpful."
+Sentiment:
+
+Review: "Works as expected, nothing special but does the job."
+Sentiment:
+
+Review: "Absolutely love this! Best purchase I've made all year!"
+Sentiment:
+
+Review: "The quality is okay but slightly overpriced for what you get."
+Sentiment:
+
+Review: "Terrible experience, would not recommend to anyone."
+Sentiment:
+
+LLM Output:
+
+Review: "The product arrived damaged and customer service was unhelpful."
+Sentiment: Negative
+
+Review: "Works as expected, nothing special but does the job."
+Sentiment: Neutral
+
+Review: "Absolutely love this! Best purchase I've made all year!"
+Sentiment: Positive
+
+Review: "The quality is okay but slightly overpriced for what you get."
+Sentiment: Negative
+
+Review: "Terrible experience, would not recommend to anyone."
+Sentiment: Negative
+
+#### Step 3: Analysis
+
+| Review # | Zero-Shot Result | Few-Shot Result | Correct Label | Improved |
+| -------- | -------- | -------- | ------- | ------- |
+| 1 | Negative | Negative | Negative | No |
+| 2 | Neutral| Neutral | Neutral | No |
+| 3 | Positive | Positive | Positive | No |
+| 4 | Negative (or Neutral) | Negative | Neutral | No |
+| 5 | Negative | Negative | Negative | No |
+
+#### When is few-shot prompting most useful?
+Few-shot prompting is most useful when you need the model to adhere strictly to a specific output format, tone, or complex classification logic that is difficult to articulate through instructions alone. By providing concrete examples, you effectively calibrate the model's responses, eliminating conversational filler and reducing ambiguous outputs. This makes it highly valuable for data extraction, reliable classification tasks, and building consistent automated pipelines where structured data is required.
+
+
 ## Part 4: Responsible AI & Limitations
 ### 4.1 Testing for Hallucinations
 ### 4.2 Testing for Bias
