@@ -159,8 +159,10 @@ LLM Output:
 
 Prompt:
 
-"If a train travels 120 km in 2 hours, then stops for 30 minutes, then travels another 90 km in 1.5 hours, what is its average speed for the entire journey? Let's solve this step by step." \ \ 
-LLM Output: \ \ 
+"If a train travels 120 km in 2 hours, then stops for 30 minutes, then travels another 90 km in 1.5 hours, what is its average speed for the entire journey? Let's solve this step by step." \ 
+
+LLM Output: \ 
+
  <img width="702" height="373" alt="image" src="https://github.com/user-attachments/assets/007f9f44-80f1-4683-9ffe-d1e16e168262" />
 
 #### Comparison
