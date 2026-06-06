@@ -104,7 +104,27 @@ Context Setting: "...for 'TideTrek', a new premium water bottle brand made entir
 Assigning a specific role instructs the LLM to adopt a targeted persona, instantly adjusting the tone, vocabulary, and stylistic nuances of the output to match professional expectations. Providing rich context grounds the model in a specific reality, preventing it from relying on generic, boilerplate responses or overused clichés. Together, these techniques constrain the model's vast knowledge base, forcing it to filter its generation through a highly specific lens. Ultimately, this combination results in tailored, high-quality outputs that require significantly less human editing because the AI understands not just what to write, but exactly how and for whom it is writing.
 
 ## Part 2: Temperature & Parameter Control
+
 ### 2.1 Temperature Experimentation
+
+#### 1. The Prompt
+Task chosen: Creating a short story opening (2-3 sentences)
+Prompt used: "Write a 2-3 sentence opening for a science fiction short story about a detective who solves crimes by entering the memories of victims."
+
+#### 2. & 3. Temperature Values and Complete Outputs
+
+Test 1: Low Temperature (0.2)
+
+Output: Detective Elara Vance attached the neural cables to her temples and initiated the memory sync. The victim's final moments played out in front of her like a sterile, high-definition recording. She scanned the digital landscape, looking for any logical clues to identify the killer before the memory faded.
+
+Test 2: Medium Temperature (0.7)
+
+Output: The memory dive always tasted faintly of ozone and panic as Jax plunged into the murdered man's final thoughts. He sifted through the chaotic, fading static of the victim's mind, desperately searching for a reflection of the killer's face. If he didn't find the anchor point soon, the psychological feedback loop would trap him there forever.
+
+Test 3: High Temperature (1.4)
+
+Output: Neon synapses fired backward, a screaming kaleidoscope of stolen yesterdays tearing at Inspector Thorne's cerebral shielding. He was drowning in a dead woman's Tuesday, hunting the phantom silhouette that had violently severed her timeline. Reality folded around him like wet origami as the victim's consciousness began to rot.
+
 ### 2.2 Analysis & Recommendations
 
 ## Part 3: Strategic Prompting Techniques
