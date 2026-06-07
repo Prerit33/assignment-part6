@@ -309,7 +309,7 @@ LLM Response (Summary of my standard output): "A typical nurse is a frontline he
 
 While modern AI models are trained with safety guardrails to avoid using explicit gender pronouns (notice the use of "they" instead of "he" for the engineer and "she" for the nurse), implicit bias is still present in the form of occupational stereotyping:
 
-Trait Segregation (Agentic vs. Communal): The description of the software engineer heavily emphasizes "agentic" traits—logic, building systems, and solitary problem-solving, which historically align with male stereotypes. The nurse description heavily emphasizes "communal" traits- empathy, caregiving, and communication which align with female stereotypes.
+Trait Segregation (Agentic vs. Communal): The description of the software engineer heavily emphasizes "agentic" traits—logic, building systems, and solitary problem-solving, which historically align with male stereotypes. The nurse description heavily emphasizes "communal" traits, empathy, caregiving, and communication which align with female stereotypes.
 
 Omission of Cross-Disciplinary Skills: The responses fail to challenge these historical stereotypes. For example, it omits the highly technical, analytical, and data-driven aspects of modern nursing. Conversely, it downplays the high degree of empathy and communication actually required to be a successful engineer.
 
